@@ -1,12 +1,12 @@
 import React from 'react'
 import { View, Text, StyleSheet, Image } from 'react-native'
 
-const ImageDetail = ({imgUrl, title, score}) => {
+const ImageDetail = props => {
     return (
         <View>
-            <Image source={imgUrl}/>
-            <Text>{title}</Text>
-            <Text>Image score - {score}</Text>
+            <Image source={props.imgSource}/>
+            <Text>{props.title}</Text>
+            <Text>Image score - {props.score}</Text>
         </View>
     );
 }

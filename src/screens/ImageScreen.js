@@ -6,21 +6,21 @@ const ImageScreen = () => {
     return (
         <View>
             <ImageDetail 
-            title="Forest" 
-            imgUrl="../../assets/forest.jpg"
-            score={8}
+                title="Forest" 
+                imgSource={require('../../assets/forest.jpg')}
+                score={8}
             />
             
             <ImageDetail 
-            title="Beach" 
-            imgUrl="../../assets/beach.jpg"
-            score={9}
+                title="Beach" 
+                imgSource={require('../../assets/beach.jpg')}
+                score={9}
             />
             
             <ImageDetail 
-            title="Mountain" 
-            imgUrl="../../assets/mountain.jpg"
-            score={10}
+                title="Mountain" 
+                imgSource={require('../../assets/mountain.jpg')}
+                score={10}
             />
         </View>
     );

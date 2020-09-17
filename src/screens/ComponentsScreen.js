@@ -1,5 +1,5 @@
 import React from 'react'
-import { Text, StyleSheet } from 'react-native'
+import { Text, StyleSheet, View } from 'react-native'
 
 const ComponentsScreen = () => {
     let name = 'Musab';
@@ -11,7 +11,7 @@ const ComponentsScreen = () => {
     );
 }
 
-const styles = StyleSheet.react({
+const styles = StyleSheet.create({
     text1: {
         fontSize: 45
     },
