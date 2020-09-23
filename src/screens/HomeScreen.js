@@ -18,7 +18,7 @@ const HomeScreen = (props) => {
         onPress = {() => props.navigation.navigate('List')}
       />*/}
       <Button 
-        title = "Go to counter demo"
+        title = "Go to counter (with reducer) demo"
         onPress = {() => props.navigation.navigate('Counter')}
       />
       <Button 
@@ -28,6 +28,10 @@ const HomeScreen = (props) => {
       <Button 
         title = "Square screen demo"
         onPress = {() => props.navigation.navigate('Square')}
+      />
+      <Button 
+        title = "Text screen demo"
+        onPress = {() => props.navigation.navigate('Text')}
       />
     </View>
   );
